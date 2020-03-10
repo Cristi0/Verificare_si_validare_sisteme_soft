@@ -1,7 +1,7 @@
 package inventory.exception;
 
-public class PartRepoException implements InventoryException {
-    private String message;
+public class PartRepoException extends Exception implements InventoryException {
+    private final String message;
 
     public PartRepoException(String message) {
         this.message = message;
