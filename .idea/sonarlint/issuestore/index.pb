@@ -27,3 +27,5 @@ Z
 *src/main/java/inventory/model/Product.java,b\1\b1f9f60d378ed17b8cfbd23f6880c72f0d6cb447
 k
 ;src/main/java/inventory/repository/InventoryRepository.java,9\5\959d3be9e6d77120b22cdef08892aae567b3ccfc
+e
+5src/main/java/inventory/logger/ApplicationLogger.java,3\5\358a839b95274209cf76540db42b8f13889fb320
