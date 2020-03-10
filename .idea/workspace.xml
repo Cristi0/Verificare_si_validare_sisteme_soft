@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="" />
+    <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/AddPartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/AddPartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/AddProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/AddProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +37,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.5681818" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -127,6 +145,9 @@
       <workItem from="1582732644103" duration="109000" />
       <workItem from="1582732772818" duration="138000" />
       <workItem from="1582743464251" duration="57000" />
+      <workItem from="1583772180475" duration="785000" />
+      <workItem from="1583773619662" duration="5783000" />
+      <workItem from="1583850197342" duration="5225000" />
     </task>
     <servers />
   </component>
@@ -151,6 +172,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="271" y="0" key="#Inventory_[exec:java]/0.0.1280.680@0.0.1280.680" timestamp="1581689276684" />
+    <state x="552" y="177" key="#Notifications" timestamp="1583773669401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583773669401" />
+    <state x="2472" y="177" key="#Project_Settings" timestamp="1583776197847">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="177" key="#Project_Settings/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583776197847" />
     <state x="234" y="4" key="#Project_Structure" timestamp="1581689105845">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -171,30 +200,41 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="75" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581858228591" />
-    <state width="1921" height="289" key="GridCell.Tab.0.bottom" timestamp="1583690574409">
+    <state width="1921" height="289" key="GridCell.Tab.0.bottom" timestamp="1583862107524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581891912998" />
-    <state width="1921" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583690574409" />
-    <state width="1921" height="289" key="GridCell.Tab.0.center" timestamp="1583690574409">
+    <state width="1921" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583862107524" />
+    <state width="1921" height="289" key="GridCell.Tab.0.center" timestamp="1583862107524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581891912998" />
-    <state width="1921" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583690574409" />
-    <state width="1921" height="289" key="GridCell.Tab.0.left" timestamp="1583690574409">
+    <state width="1921" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583862107524" />
+    <state width="1921" height="289" key="GridCell.Tab.0.left" timestamp="1583862107524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581891912998" />
-    <state width="1921" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583690574409" />
-    <state width="1921" height="289" key="GridCell.Tab.0.right" timestamp="1583690574409">
+    <state width="1921" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583862107524" />
+    <state width="1921" height="289" key="GridCell.Tab.0.right" timestamp="1583862107524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581891912998" />
-    <state width="1921" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583690574409" />
-    <state x="351" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1582489907807">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1921" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583862107524" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1583777269299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583777269299" />
+    <state x="2447" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1583850292196">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582489907807" />
+    <state x="527" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583773622499" />
+    <state x="2447" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583850292196" />
+    <state x="306" y="175" width="1262" height="865" key="find.popup" timestamp="1583859694025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="306" y="175" width="1262" height="865" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583859694025" />
+    <state x="162" y="134" width="1262" height="865" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583779972916" />
     <state width="300" height="120" key="javadoc.popup.new" timestamp="1581803619356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

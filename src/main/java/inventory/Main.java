@@ -16,8 +16,8 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
         InventoryRepository repo= new InventoryRepository();
         InventoryService service = new InventoryService(repo);
-        System.out.println(service.getAllProducts());
-        System.out.println(service.getAllParts());
+        System.err.println(service.getAllProducts());
+        System.err.println(service.getAllParts());
         FXMLLoader loader= new FXMLLoader(getClass().getResource("/fxml/MainScreen.fxml"));
 
         Parent root=loader.load();
