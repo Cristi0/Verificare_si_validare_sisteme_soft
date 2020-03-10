@@ -1,23 +1,0 @@
-
-o
-java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ðÑœýÿÿÿÿ
-T	java:S106™"9Replace this use of System.out or System.err by a logger.(ò¤áÿûÿÿÿÿ
-L
-java:S3655˜"5Call "result.isPresent()" before accessing the value.(ÃÇûÞ
-L
-java:S3655®"5Call "result.isPresent()" before accessing the value.(ÃÇûÞ
-œ
-java:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ùÍï”ùÿÿÿÿ
-T	java:S106Þ"9Replace this use of System.out or System.err by a logger.(Éâ…ºýÿÿÿÿ
-q
-java:S1450"[Remove the "errorMessage" field and declare it as a local variable in the relevant methods.(ÊÃ‘æ
-C
-java:S1068 "-Remove this unused "productId" private field.(þáÀã
-j
-java:S1450"TRemove the "scene" field and declare it as a local variable in the relevant methods.(‹ôÒ¡
-T	java:S106œ"9Replace this use of System.out or System.err by a logger.(½ðöÈýÿÿÿÿ
-6
-java:S2129" Remove this "String" constructor(ÊÃ‘æ
-Q	java:S125u"<This block of commented-out lines of code should be removed.( ÆüÖ
-T	java:S106¯"9Replace this use of System.out or System.err by a logger.(ñ¢©·þÿÿÿÿ
-O	java:S106²"9Replace this use of System.out or System.err by a logger.(¤Õï«

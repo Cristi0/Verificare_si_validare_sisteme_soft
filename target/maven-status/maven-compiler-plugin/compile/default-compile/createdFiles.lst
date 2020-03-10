@@ -2,7 +2,6 @@ inventory\model\Part.class
 inventory\model\Inventory.class
 inventory\model\OutsourcedPart.class
 inventory\controller\AddProductController.class
-inventory\logger\ApplicationLogger.class
 inventory\controller\AddPartController.class
 inventory\controller\ModifyPartController.class
 inventory\repository\InventoryRepository.class

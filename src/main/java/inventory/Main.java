@@ -1,6 +1,5 @@
 package inventory;
 
-import inventory.logger.ApplicationLogger;
 import inventory.repository.InventoryRepository;
 import inventory.service.InventoryService;
 import inventory.controller.MainScreenController;
@@ -10,8 +9,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.util.logging.Level;
-
 
 public class Main extends Application {
 
@@ -19,8 +16,8 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
         InventoryRepository repo= new InventoryRepository();
         InventoryService service = new InventoryService(repo);
-        ApplicationLogger.log(Level.INFO, service.getAllProducts().toString());
-        ApplicationLogger.log(Level.INFO, service.getAllParts().toString());
+        System.err.println(service.getAllProducts());
+        System.err.println(service.getAllParts());
         FXMLLoader loader= new FXMLLoader(getClass().getResource("/fxml/MainScreen.fxml"));
 
         Parent root=loader.load();

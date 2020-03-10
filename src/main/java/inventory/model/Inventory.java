@@ -50,8 +50,9 @@ public class Inventory {
             if(p.getName().contains(searchItem) || (p.getProductId()+"").equals(searchItem)) return p;
             isFound = true;
         }
-        if(!isFound) {
-            return new Product(0, null, 0.0, 0, 0, 0, null);
+        if(isFound == false) {
+            Product product = new Product(0, null, 0.0, 0, 0, 0, null);
+            return product;
         }
         return null;
     }
