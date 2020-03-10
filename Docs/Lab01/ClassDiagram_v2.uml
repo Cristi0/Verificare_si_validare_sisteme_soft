@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="251.5" y="1508.0">inventory.validator.Valid</node>
+    <node x="943.0" y="0.0">inventory.repository.InventoryRepository</node>
+    <node x="1033.0" y="1006.0">inventory.service.InventoryService</node>
+    <node x="442.0" y="0.0">inventory.model.Product</node>
+    <node x="1004.0" y="1431.0">inventory.Main</node>
+    <node x="567.0" y="1151.0">inventory.exception.InventoryException</node>
+    <node x="666.0" y="1251.0">inventory.exception.PartRepoException</node>
+    <node x="0.0" y="1006.0">inventory.model.Inventory</node>
+    <node x="467.0" y="1251.0">inventory.exception.ProducRepoException</node>
+    <node x="29.75" y="0.0">inventory.model.Part</node>
+    <node x="1164.0" y="680.0">inventory.controller.AddProductController</node>
+    <node x="186.0" y="386.0">inventory.model.OutsourcedPart</node>
+    <node x="876.0" y="702.0">inventory.controller.AddPartController</node>
+    <node x="580.0" y="691.0">inventory.controller.ModifyPartController</node>
+    <node x="279.0" y="625.0">inventory.controller.MainScreenController</node>
+    <node x="608.0" y="525.0">inventory.controller.Controller</node>
+    <node x="0.0" y="669.0">inventory.controller.ModifyProductController</node>
+    <node x="0.0" y="386.0">inventory.model.InhousePart</node>
+  </nodes>
+  <notes>
+    <note x="0.0" y="1431.0">
+      <node>inventory.validator.Valid</node>
+      <value>Se foloseste de singleton si se asociaza claselor de service pentru a verifica datele inainte de adaugarea lor/ actualizare/ stergere.</value>
+      <edge>
+        <point x="0.0" y="-47.0" />
+        <point x="0.0" y="13.5" />
+      </edge>
+    </note>
+    <note x="323.0" y="1006.0">
+      <node>inventory.exception.InventoryException</node>
+      <value>Pe partea de UI se prind erorile de tip Inventory afisanduse intr-o casuta mesajul de eroare\n\nSe afiseaza mesaj de eroare (De ce nu s-a putut efectua operatiunea)\n\nSe arunca din repository mesaje de eroare precum \"nu s-a putut gasi fisierul\" ...</value>
+      <edge>
+        <point x="0.0" y="-25.0" />
+        <point x="0.0" y="47.5" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="inventory.controller.AddProductController" target="inventory.controller.Controller">
+      <point x="0.0" y="-113.0" />
+      <point x="1293.5" y="595.0" />
+      <point x="806.0" y="595.0" />
+      <point x="88.0" y="25.0" />
+    </edge>
+    <edge source="inventory.exception.PartRepoException" target="inventory.exception.InventoryException">
+      <point x="0.0" y="-25.0" />
+      <point x="754.5" y="1226.0" />
+      <point x="699.75" y="1226.0" />
+      <point x="44.25" y="25.0" />
+    </edge>
+    <edge source="inventory.controller.AddPartController" target="inventory.controller.Controller">
+      <point x="0.0" y="-91.0" />
+      <point x="1010.0" y="605.0" />
+      <point x="762.0" y="605.0" />
+      <point x="44.0" y="25.0" />
+    </edge>
+    <edge source="inventory.controller.ModifyPartController" target="inventory.controller.Controller">
+      <point x="0.0" y="-102.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="inventory.exception.ProducRepoException" target="inventory.exception.InventoryException">
+      <point x="0.0" y="-25.0" />
+      <point x="556.5" y="1226.0" />
+      <point x="611.25" y="1226.0" />
+      <point x="-44.25" y="25.0" />
+    </edge>
+    <edge source="inventory.model.OutsourcedPart" target="inventory.model.Part">
+      <point x="0.0" y="-47.0" />
+      <point x="291.5" y="361.0" />
+      <point x="266.0" y="361.0" />
+      <point x="78.75" y="168.0" />
+    </edge>
+    <edge source="inventory.controller.ModifyProductController" target="inventory.controller.Controller">
+      <point x="0.0" y="-124.0" />
+      <point x="129.5" y="595.0" />
+      <point x="630.0" y="595.0" />
+      <point x="-88.0" y="25.0" />
+    </edge>
+    <edge source="inventory.controller.MainScreenController" target="inventory.controller.Controller">
+      <point x="0.0" y="-168.0" />
+      <point x="419.5" y="605.0" />
+      <point x="674.0" y="605.0" />
+      <point x="-44.0" y="25.0" />
+    </edge>
+    <edge source="inventory.model.InhousePart" target="inventory.model.Part">
+      <point x="0.0" y="-47.0" />
+      <point x="83.0" y="361.0" />
+      <point x="108.5" y="361.0" />
+      <point x="-78.75" y="168.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="909.5" y="1238.5" />
+  <SelectedNodes>
+    <node>inventory.exception.InventoryException</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
