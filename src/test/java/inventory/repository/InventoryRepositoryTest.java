@@ -63,6 +63,17 @@ class InventoryRepositoryTest
         addedTestParts.add(part);
     }
 
+    @Disabled
+    @Test
+    void addPart_ECP_TC4()
+    {
+        Part part = new OutsourcedPart(inventoryRepository.getAutoPartId(), "Chiulasa", -20.5, 2, 1, 15, "Farmec");
+        Assertions.assertThrows(RuntimeException.class,
+                () -> inventoryRepository.addPart(part),
+                "The price must be greater than 0. ");
+        addedTestParts.add(part);
+    }
+
     @Test
     void addPart_ECP_TC5()
     {
