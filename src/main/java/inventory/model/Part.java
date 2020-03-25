@@ -93,9 +93,6 @@ public abstract class Part {
         if(price < 0.01) {
             errorMessage += "The price must be greater than 0. ";
         }
-        if(inStock < 1) {
-            errorMessage += "Inventory level must be greater than 0. ";
-        }
         if(min > max) {
             errorMessage += "The Min value must be less than the Max value. ";
         }

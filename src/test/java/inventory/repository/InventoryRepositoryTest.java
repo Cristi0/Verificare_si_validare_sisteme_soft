@@ -150,4 +150,64 @@ class InventoryRepositoryTest
                 "Name cannot be longer than 255. ");
         addedTestParts.add(part);
     }
+
+    @Test
+    void addPart_BVA_TC8()
+    {
+        Part part = new InhousePart(inventoryRepository.getAutoPartId(), "den1", 5.5, -1, 1, 15, 2211);
+        Assertions.assertThrows(RuntimeException.class,
+                () -> inventoryRepository.addPart(part),
+                "Inventory level is lower than minimum value. ");
+        addedTestParts.add(part);
+    }
+
+    @Test
+    void addPart_BVA_TC9()
+    {
+        int previous = inventoryRepository.getAllParts().size();
+        Part part = new InhousePart(inventoryRepository.getAutoPartId(), "den2", 3.5, 1, 1, 15, 9132);
+        inventoryRepository.addPart(part);
+        addedTestParts.add(part);
+        Assertions.assertEquals(previous + 1, inventoryRepository.getAllParts().size());
+    }
+
+    @Test
+    void addPart_BVA_TC10()
+    {
+        int previous = inventoryRepository.getAllParts().size();
+        Part part = new OutsourcedPart(inventoryRepository.getAutoPartId(), "den3", 9.5, 2, 1, 15, "CompanyA");
+        inventoryRepository.addPart(part);
+        addedTestParts.add(part);
+        Assertions.assertEquals(previous + 1, inventoryRepository.getAllParts().size());
+    }
+
+    @Test
+    void addPart_BVA_TC11()
+    {
+        int previous = inventoryRepository.getAllParts().size();
+        Part part = new OutsourcedPart(inventoryRepository.getAutoPartId(), "den4", 15, 14, 1, 15, "CompanyB");
+        inventoryRepository.addPart(part);
+        addedTestParts.add(part);
+        Assertions.assertEquals(previous + 1, inventoryRepository.getAllParts().size());
+    }
+
+    @Test
+    void addPart_BVA_TC12()
+    {
+        int previous = inventoryRepository.getAllParts().size();
+        Part part = new InhousePart(inventoryRepository.getAutoPartId(), "den5", 50, 15, 1, 15, 2211);
+        inventoryRepository.addPart(part);
+        addedTestParts.add(part);
+        Assertions.assertEquals(previous + 1, inventoryRepository.getAllParts().size());
+    }
+
+    @Test
+    void addPart_BVA_TC13()
+    {
+        Part part = new InhousePart(inventoryRepository.getAutoPartId(), "den1", 399.9, 16, 1, 15, 9312);
+        Assertions.assertThrows(RuntimeException.class,
+                () -> inventoryRepository.addPart(part),
+                "Inventory level is higher than maximum value. ");
+        addedTestParts.add(part);
+    }
 }
