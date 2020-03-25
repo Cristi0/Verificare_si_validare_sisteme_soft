@@ -151,6 +151,10 @@ public class InventoryRepository {
 	}
 
 	public void addPart(Part part){
+		String errorMessage = "";
+		errorMessage = Part.isValidPart(part.getName(), part.getPrice(), part.getInStock(), part.getMin(), part.getMax(), errorMessage);
+		if(!errorMessage.isEmpty())
+			throw new RuntimeException(errorMessage);
 		inventory.addPart(part);
 		writeAll();
 	}

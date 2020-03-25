@@ -87,6 +87,9 @@ public abstract class Part {
         if(name.equals("")) {
             errorMessage += "A name has not been entered. ";
         }
+        if(name.length() > 255){
+            errorMessage += "Name cannot be longer than 255.";
+        }
         if(price < 0.01) {
             errorMessage += "The price must be greater than 0. ";
         }

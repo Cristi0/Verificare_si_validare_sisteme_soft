@@ -1,10 +1,15 @@
 C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\model\Inventory.java
 C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\controller\ModifyProductController.java
+C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\exception\PartRepoException.java
 C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\model\InhousePart.java
 C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\model\Part.java
+C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\validator\Valid.java
 C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\controller\MainScreenController.java
+C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\exception\ProducRepoException.java
 C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\controller\Controller.java
+C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\logger\ApplicationLogger.java
 C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\service\InventoryService.java
+C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\exception\InventoryException.java
 C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\repository\InventoryRepository.java
 C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\controller\AddProductController.java
 C:\Users\ralph\OneDrive\Documents\Year3\Semester2\VVSS\lab01\inventory\Verificare_si_validare_sisteme_soft\src\main\java\inventory\controller\ModifyPartController.java
