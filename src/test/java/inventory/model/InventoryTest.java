@@ -20,15 +20,27 @@ class InventoryTest
     @Test
     void lookupTest_nameMatchesFirstInListProduct_returnsProduct()
     {
-        Product product = new Product(inventory.getAutoProductId(), "name", 1, 1, 1, 10, FXCollections.observableArrayList());
+        Product product = new Product(inventory.getAutoProductId(),
+                "name",
+                1,
+                1,
+                1,
+                10,
+                FXCollections.observableArrayList());
         inventory.addProduct(product);
-Assertions.assertEquals(product, inventory.lookupProduct(product.getName()));
+        Assertions.assertEquals(product, inventory.lookupProduct(product.getName()));
     }
 
     @Test
     void lookupTest_idMatchesFirstInListProduct_returnsProduct()
     {
-        Product product = new Product(inventory.getAutoProductId(), "name", 1, 1, 1, 10, FXCollections.observableArrayList());
+        Product product = new Product(inventory.getAutoProductId(),
+                "name",
+                1,
+                1,
+                1,
+                10,
+                FXCollections.observableArrayList());
         inventory.addProduct(product);
         Assertions.assertEquals(product, inventory.lookupProduct(String.valueOf(product.getProductId())));
     }
@@ -36,8 +48,20 @@ Assertions.assertEquals(product, inventory.lookupProduct(product.getName()));
     @Test
     void lookupTest_nameMatchesNonFirstInListProduct_returnsProduct()
     {
-        Product dummy = new Product(inventory.getAutoProductId(), "dummy", 1, 1, 1, 10, FXCollections.observableArrayList());
-        Product product = new Product(inventory.getAutoProductId(), "name", 1, 1, 1, 10, FXCollections.observableArrayList());
+        Product dummy = new Product(inventory.getAutoProductId(),
+                "dummy",
+                1,
+                1,
+                1,
+                10,
+                FXCollections.observableArrayList());
+        Product product = new Product(inventory.getAutoProductId(),
+                "name",
+                1,
+                1,
+                1,
+                10,
+                FXCollections.observableArrayList());
         inventory.addProduct(dummy);
         inventory.addProduct(product);
         Assertions.assertEquals(product, inventory.lookupProduct(product.getName()));
@@ -46,8 +70,20 @@ Assertions.assertEquals(product, inventory.lookupProduct(product.getName()));
     @Test
     void lookupTest_idMatchesNonFirstInListProduct_returnsProduct()
     {
-        Product dummy = new Product(inventory.getAutoProductId(), "dummy", 1, 1, 1, 10, FXCollections.observableArrayList());
-        Product product = new Product(inventory.getAutoProductId(), "name", 1, 1, 1, 10, FXCollections.observableArrayList());
+        Product dummy = new Product(inventory.getAutoProductId(),
+                "dummy",
+                1,
+                1,
+                1,
+                10,
+                FXCollections.observableArrayList());
+        Product product = new Product(inventory.getAutoProductId(),
+                "name",
+                1,
+                1,
+                1,
+                10,
+                FXCollections.observableArrayList());
         inventory.addProduct(dummy);
         inventory.addProduct(product);
         Assertions.assertEquals(product, inventory.lookupProduct(String.valueOf(product.getProductId())));
@@ -65,9 +101,14 @@ Assertions.assertEquals(product, inventory.lookupProduct(product.getName()));
     @Test
     void lookupTest_noMatchFoundInNonEmptyList_returnsNull()
     {
-        Product dummy = new Product(inventory.getAutoProductId(), "dummy", 1, 1, 1, 10, FXCollections.observableArrayList());
+        Product dummy = new Product(inventory.getAutoProductId(),
+                "dummy",
+                1,
+                1,
+                1,
+                10,
+                FXCollections.observableArrayList());
         inventory.addProduct(dummy);
         assertNull(inventory.lookupProduct("random"));
-
     }
 }
