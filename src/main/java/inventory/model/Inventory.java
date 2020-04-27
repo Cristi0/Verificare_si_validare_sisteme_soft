@@ -20,6 +20,13 @@ public class Inventory {
         this.autoPartId=0;
     }
 
+    public Inventory(ObservableList<Product> products, ObservableList<Part> allParts, int autoPartId, int autoProductId)
+    {
+        this.products = products;
+        this.allParts = allParts;
+        this.autoPartId = autoPartId;
+        this.autoProductId = autoProductId;
+    }
 
     // Declare methods
     

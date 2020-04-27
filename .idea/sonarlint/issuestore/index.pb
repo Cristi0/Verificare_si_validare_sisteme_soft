@@ -39,3 +39,11 @@ o
 ?src/test/java/inventory/repository/InventoryRepositoryTest.java,3\1\3107fd41d863651a73b5ce7fd2d3c848ab96a919
 `
 0src/test/java/inventory/model/InventoryTest.java,1\7\1727e72bacda923720f502e981a8b45612dcd055
+t
+Dsrc/test/java/inventory/repository/InventoryRepositoryTestLab03.java,c\b\cbab56f9b969ada6e00888c4e7c58e7f9b726f3b
+l
+<src/test/java/MockitoTests/UnitTests/InventoryTest_Unit.java,f\7\f7570c0dbd5f08e5f9d3c9c74beb6edff7d4c0ad
+s
+Csrc/test/java/MockitoTests/UnitTests/InventoryServiceTest_Unit.java,8\8\88d007661225028014d8e8f52f87f55422df98ea
+v
+Fsrc/test/java/MockitoTests/UnitTests/InventoryRepositoryTest_Unit.java,e\6\e62d8744edb06eeedf917a351c630f43f61344c4

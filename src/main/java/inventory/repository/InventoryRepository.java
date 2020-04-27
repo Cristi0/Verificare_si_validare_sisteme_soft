@@ -21,6 +21,11 @@ public class InventoryRepository {
 		readProducts();
 	}
 
+	public InventoryRepository(Inventory inventory)
+	{
+		this.inventory = inventory;
+	}
+
 	public void readParts(){
 		ClassLoader classLoader = InventoryRepository.class.getClassLoader();
 		File file = new File(classLoader.getResource(filename).getFile());
