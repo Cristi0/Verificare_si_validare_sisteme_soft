@@ -49,3 +49,5 @@ v
 Fsrc/test/java/MockitoTests/UnitTests/InventoryRepositoryTest_Unit.java,e\6\e62d8744edb06eeedf917a351c630f43f61344c4
 {
 Ksrc/test/java/MockitoTests/IntegrationTests/IntegrationTest_Repository.java,0\8\084b639a81840891582ddbd785ebd2b53d657881
+x
+Hsrc/test/java/MockitoTests/IntegrationTests/IntegrationTest_Service.java,7\1\717f4a99f23a150c2569175c9bcadfc0b8ee4efd
