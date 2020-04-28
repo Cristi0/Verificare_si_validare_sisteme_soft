@@ -11,7 +11,7 @@ import static org.mockito.Mockito.*;
 class InventoryServiceTest_Unit
 {
     @Test
-    public void test_AddPartCallsAddPartRepository()
+    public void test_AddPartCallsAddPartService()
     {
         InventoryRepository mockedRepository = mock(InventoryRepository.class);//mock repository
         doNothing().when(mockedRepository).addPart(isA(Part.class));//prevent side effects from adding a part

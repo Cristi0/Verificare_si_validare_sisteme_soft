@@ -47,3 +47,5 @@ s
 Csrc/test/java/MockitoTests/UnitTests/InventoryServiceTest_Unit.java,8\8\88d007661225028014d8e8f52f87f55422df98ea
 v
 Fsrc/test/java/MockitoTests/UnitTests/InventoryRepositoryTest_Unit.java,e\6\e62d8744edb06eeedf917a351c630f43f61344c4
+{
+Ksrc/test/java/MockitoTests/IntegrationTests/IntegrationTest_Repository.java,0\8\084b639a81840891582ddbd785ebd2b53d657881
