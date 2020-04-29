@@ -12,10 +12,10 @@
 <p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></div>
 <div class="doc_title"><p>Test Specification</p></div>
 <div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj236<br>Test Suite: Prj236 - pcir2381_IntT</p></div>
-<div class="summary"><p id="printedby">Printed by TestLink on 28/04/2020</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 29/04/2020</p></div>
 <div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
 <h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><b><p style="padding-left: 20px;"><a href="#toc_1">1. pcir2381_IntT</a></p></b>
-<p style="padding-left: 45px;"><a href="#toc_tc47213">Prj236-172: integrationAddPart</a></p><p style="padding-left: 45px;"><a href="#toc_tc47215">Prj236-173: integrationDeletePart</a></p><p style="padding-left: 45px;"><a href="#toc_tc47217">Prj236-174: integrationAddPart_S_R</a></p><p style="padding-left: 45px;"><a href="#toc_tc47219">Prj236-175: integrationDeletePart_S_R</a></p><p style="padding-left: 45px;"><a href="#toc_tc47221">Prj236-176: integrationAddPartStub</a></p><p style="padding-left: 45px;"><a href="#toc_tc47223">Prj236-177: integrationDeletePartStub</a></p></div><h1 class="doclevel" >Scope</h1>
+<p style="padding-left: 45px;"><a href="#toc_tc47213">Prj236-172: integrationAddPart</a></p><p style="padding-left: 45px;"><a href="#toc_tc47215">Prj236-173: integrationDeletePart</a></p><p style="padding-left: 45px;"><a href="#toc_tc47217">Prj236-174: integrationAddPart_S_R</a></p><p style="padding-left: 45px;"><a href="#toc_tc47219">Prj236-175: integrationDeletePart_S_R</a></p><p style="padding-left: 45px;"><a href="#toc_tc47221">Prj236-176: integrationAddPartStub</a></p><p style="padding-left: 45px;"><a href="#toc_tc47223">Prj236-177: integrationDeletePartStub</a></p><p style="padding-left: 45px;"><a href="#toc_tc47367">Prj236-178: IntegrareAddPart_E_R</a></p><p style="padding-left: 45px;"><a href="#toc_tc47369">Prj236-179: IntegrareDeletePart_E_R</a></p><p style="padding-left: 45px;"><a href="#toc_tc47371">Prj236-180: IntegrareAddPart_E_S</a></p><p style="padding-left: 45px;"><a href="#toc_tc47373">Prj236-181: IntegrareDeletePart_E_S</a></p></div><h1 class="doclevel" >Scope</h1>
 <div class="txtlevel"><p>
 	Testing project for group 236</p></div>
  <br/><a name='toc_1'></a>
@@ -53,7 +53,7 @@
 </td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
-<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >MockitoTests.UnitTests.InventoryServiceTest_Unit#test_AddPartCallsAddPartRepository</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >MockitoTests.UnitTests.InventoryServiceTest_Unit#test_AddPartCallsAddPartService</td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" >MockitoTests.UnitTests.InventoryServiceTest_Unit</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">pcir2381_F02:  Lab03<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
@@ -95,6 +95,59 @@
 <tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >MockitoTests.UnitTests.InventoryTest_Unit#test_DeletePartCallsDeletePart_Entity</td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" >MockitoTests.UnitTests.InventoryTest_Unit</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">pcir2381_F02:  Lab03<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
+</table>
+</div>
+<a name="toc_tc47367"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj236-178: IntegrareAddPart_E_R</th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">pcir2381</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Se integreaza E cu R</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >MockitoTests.IntegrationTests.IntegrationTest_Repository#test_AddPartCallsAddPartRepository</td></tr>
+<tr><td > name of the autotest class:</td><td  colspan = "2" >MockitoTests.IntegrationTests.IntegrationTest_Repository</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
+</table>
+</div>
+<a name="toc_tc47369"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj236-179: IntegrareDeletePart_E_R</th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">pcir2381</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	<br />
+	Se integreaza E cu R</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >MockitoTests.IntegrationTests.IntegrationTest_Repository#test_DeletePartCallsDeletePart_Repository</td></tr>
+<tr><td > name of the autotest class:</td><td  colspan = "2" >MockitoTests.IntegrationTests.IntegrationTest_Repository</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
+</table>
+</div>
+<a name="toc_tc47371"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj236-180: IntegrareAddPart_E_S</th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">pcir2381</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Se integreaza E cu S</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >MockitoTests.IntegrationTests.IntegrationTest_Service#test_AddPartCallsAddPartService</td></tr>
+<tr><td > name of the autotest class:</td><td  colspan = "2" >MockitoTests.IntegrationTests.IntegrationTest_Service</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
+</table>
+</div>
+<a name="toc_tc47373"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj236-181: IntegrareDeletePart_E_S</th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">pcir2381</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Se integreaza E cu S</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >MockitoTests.IntegrationTests.IntegrationTest_Service#test_DeletePartCallsDeletePartService</td></tr>
+<tr><td > name of the autotest class:</td><td  colspan = "2" >MockitoTests.IntegrationTests.IntegrationTest_Service</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
 </table>
 </div>
